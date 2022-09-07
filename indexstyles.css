@@ -1,0 +1,27 @@
+/*body styles*/
+
+.body-container {
+  display: grid;
+  grid-template-columns: repeat(1fr, 2);
+  grid-template-rows: fit-content;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.body-container p {
+  grid-column: 1;
+  font-size: 24px;
+  line-height: 2em;
+  margin: 50px 100px 25px 100px;
+  text-indent: 50px;
+  color: #7a68ff;
+  text-shadow: #a5ff00 0px 3px 1px;
+}
+
+.body-container img {
+  grid-column: 2;
+  margin-right: 100px;
+  border-radius: 20px;
+  box-shadow: #a5ff00 0px 0px 10px;
+}
