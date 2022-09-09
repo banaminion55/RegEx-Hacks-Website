@@ -19,9 +19,20 @@
   text-shadow: #a5ff00 0px 3px 1px;
 }
 
-.body-container img {
+.body-container p {
   grid-column: 2;
-  margin-right: 100px;
-  border-radius: 20px;
+  margin: 0 80px;
+  max-width: 850px;
+  text-indent: 0;
+  font-size: 24pt;
+  line-height: 100px;
+}
+
+#gmaps-damien {
+  grid-column: 1;
+  height: 615px;
+  width: 850px;
+  margin-top: 55px;
+  margin-left: 70px;
   box-shadow: #a5ff00 0px 0px 10px;
 }
